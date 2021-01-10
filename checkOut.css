@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    font-family: "Roboto Lt", sans-serif;
+    font-size: 10px;
+    color: #333;
+} */
+
+body{
+    background: url(ProductPageAchtergrond2.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 350px;
+}
+
+.wrapper .checkout-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.wrapper .checkout-wrapper .product-info{
+    width: 45%;
+    background: rgb(99, 163, 163, 0.8);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+}
+
+.wrapper .checkout-wrapper .product-info img{
+    width: 240px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+.wrapper .checkout-wrapper .product-info .content{
+    text-align: center;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.wrapper .checkout-wrapper .product-info .content h3{
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.wrapper .checkout-wrapper .product-info .content p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.wrapper .checkout-wrapper .checkout-form{
+    width: 55%;
+    background: lightgrey;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 50px 30px;
+}
+
+.wrapper .checkout-wrapper .checkout-form p{
+    margin-bottom: 25px;
+    font-size: 2opx;
+    text-transform: uppercase;
+}
+
+.wrapper .checkout-wrapper .checkout-form .section{
+    margin-bottom: 15px;
+}
+
+.wrapper .checkout-wrapper .checkout-form .section input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #dddddd;
+    outline: none;
+
+}
+
+.wrapper .checkout-wrapper .checkout-form .section input[type="text"]:focus{
+    border-color: rgb(99, 163, 163, 0.8);
+}
+
+.wrapper .checkout-wrapper .checkout-form .section.last-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .checkout-wrapper .checkout-form .section.last-section .item{
+    width: 48%;
+}
+
+.wrapper .checkout-wrapper .checkout-form .btn{
+    background: rgb(99, 163, 163, 0.8);
+    padding:10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.wrapper .checkout-wrapper .checkout-form .btn a{
+    color: white;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.onderdeel{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}  
+
+.product-info{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.tone-2{
+    /* background-color:white; */
+    height: 100vh;
+    flex: 1;
+    top: 9.5%;
+    /* left: -8rem; */
+    position: relative;
+    /* border-radius: 50%; */
+} 
+
+#product-svg{
+    position: absolute;
+    z-index: 2;
+    mix-blend-mode: multiply;
+}
+
+g{
+    fill: white;
+}
+
+.parent {
+    position: relative;
+    top:0px;
+    left: 0px;
+    z-index: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+   
+   
+  }
+  .image2 {
+    position: absolute;
+    top: 0;
+    left:0;
+  }
+
+  .banaan:hover{
+     fill:darkgray;
+    cursor: pointer;
+  }
+
+  .banaan:active{
+    fill:darkgray;
+   cursor: pointer;
+ }
+  
+  svg{
+      position: absolute;
+      top: -0px;
+      z-index: 10;
+  }

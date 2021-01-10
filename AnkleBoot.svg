@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 822 696" style="enable-background:new 0 0 822 696;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st1{display:none;}
+	.st2{display:inline;}
+	.st3{fill:none;stroke:#000000;stroke-width:0.7;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#000000;stroke-width:0.7;stroke-miterlimit:10;stroke-dasharray:8.1077,6.0808;}
+	.st5{fill:none;stroke:#000000;stroke-width:0.7;stroke-miterlimit:10;stroke-dasharray:8.1712,6.1284;}
+	.st6{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st7{display:inline;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st8{display:inline;fill:none;stroke:#000000;stroke-width:0.7;stroke-miterlimit:10;}
+	.st9{display:inline;fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<g id="schoen">
+	<path class="st0" d="M358,73v90c0,0-4,58-10,101s-3,42-27,112s-54,98-54,98s-15.5,18.5-43,34c0,0-6.5,4.5-51,22
+		c-42.1,16.6-48,17-68,22s-22.5,12.5-22.5,12.5S63,594,115,606s71,11,108,14s59.5,2.5,59.5,2.5S352,628,385,604s66-58,89-75
+		s35-33,72-48s103-36,103-36s26-8,29-8s9-6,12-35s-5-62-5-62s-7-23-21-51s-17-82-16-102s3-47,3-47l6.9-67H358z"/>
+</g>
+<g id="Laag_13" class="st1">
+	<g id="tlLjBd_1_" class="st2">
+		
+			<image style="overflow:visible;" width="1801" height="2600" id="tlLjBd_2_" xlink:href="62F1F1DD0008198A.jpg"  transform="matrix(0.4747 0 0 0.4747 -164 -248)">
+		</image>
+	</g>
+</g>
+<g id="Hak">
+	<path class="st0" d="M561.6,475.5V624h117.9l1-187.5C680.5,436.5,609.9,453.6,561.6,475.5z"/>
+	<line class="st0" x1="561.6" y1="611.6" x2="680" y2="611.5"/>
+</g>
+<g id="Naad">
+	<line class="st3" x1="530.9" y1="73" x2="523.8" y2="491.7"/>
+	<path class="st3" d="M538.9,484.1"/>
+	<path class="st3" d="M546,65.4"/>
+</g>
+<g id="Zool">
+	<path class="st3" d="M554.5,477.5c0,0-44,15-74,38s-50,39-61,48c0,0-34,31-53,41c-10.4,5.5-27,8-40,9c-11,0.8-51.2,1-69.6,0
+		c-18.4-1-73.4-4-85.4-5s-45-6-55-8s-35-13-37-27"/>
+</g>
+<g id="dashed_lines">
+	<g>
+		<g>
+			<line class="st3" x1="526.4" y1="80" x2="526.3" y2="84"/>
+			<line class="st4" x1="526.2" y1="90.1" x2="519.4" y2="484.3"/>
+			<line class="st3" x1="519.3" y1="487.3" x2="519.2" y2="491.3"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st3" x1="658.1" y1="78.2" x2="654.1" y2="78.2"/>
+			<line class="st5" x1="647.9" y1="78.2" x2="365" y2="78"/>
+			<line class="st3" x1="362" y1="78" x2="358" y2="78"/>
+		</g>
+	</g>
+</g>
+<g id="Hakversiering">
+	<path class="st6" d="M561.4,482.1c0,0,66-23.9,119.1-38.8"/>
+</g>
+<g id="Hielversiering" class="st1">
+	<path class="st7" d="M542.5,483.5c0,0,10-179,121.5-194.5"/>
+</g>
+<g id="aantreklabel" class="st1">
+	<polyline class="st8" points="553.5,483 561.5,27.5 531.5,27.5 530.9,73 	"/>
+</g>
+<g id="neusversiering" class="st1">
+	<path class="st9" d="M327.5,357.5c0,0,114,12,107,194"/>
+</g>
+<g id="Gesp" class="st1">
+	<path class="st9" d="M530.4,119.1c0,0-3,77,33.9,82c36.9,5,79.5,2.4,79.5,2.4H654v47.6h-5.1c0,0-51.6,0.3-88.5,5.4
+		c-36.9,5-33.9,82-33.9,82"/>
+</g>
+<g id="verhoging" class="st1">
+	<polyline class="st9" points="358,73 358,51 530.9,51 530.9,73 	"/>
+</g>
+</svg>

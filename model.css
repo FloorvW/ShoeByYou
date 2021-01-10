@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Roboto Lt", sans-serif;
+    font-size: 10px;
+    color: #333;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-toggle{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    display: none;
+    z-index: 999; 
+}
+
+.menu-toggle i,
+.fa-times{
+    font-size: 3,5rem;
+}
+
+.fa-times{
+    display: none;
+    cursor: pointer;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.075);
+    z-index: 1000;
+    background-color: white;
+}
+
+.logo{
+    width: 5rem;
+    box-sizing: content-box;
+    padding-left: 3rem;
+}
+
+.logo img{
+    display: block;
+    width: 100%;
+}
+
+nav ul{
+    height: 8rem;
+    list-style: none;
+    display: flex;
+    font-size: 1.6rem;
+}
+
+nav ul li{
+    padding: 0 3rem;
+    line-height: 8rem;
+    transition: background-color .5s;
+}
+
+nav ul li:hover{
+    background-color: rgba(0,0,0,.075);
+}
+
+.nav-right ul li{
+    border-right: 1px solid rgba(0,0,0,.075);
+}
+
+.nav-right ul li:nth-child(1){
+    border-left: 1px solid rgba(0,0,0,.075);
+}
+
+.nav-right ul li:last-child{
+    border-right: none;
+}
+
+.nav-right i{
+    margin-right: 1rem;
+}
+
+.nav-right i:first-child{
+    margin-right: 0;
+}
+
+.main{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.tone-1{
+    background-color: #f7f7f6;
+    height: 100vh;
+    flex: 1;
+}
+
+.tone-2{
+    background-color:white;
+    height: 100vh;
+    flex: 1;
+    top: 9.5%;
+    /* left: -8rem; */
+    position: relative;
+    /* border-radius: 50%; */
+}
+
+.tone-2 img{
+    width: 90%;
+    position: absolute;
+    top: 40%;
+    left: 3rem;
+    transform: translateY(-50%);
+}
+
+.onderdeel{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+/* 
+.onderdeel h1{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10%;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    text-align: center;
+} */
+
+.onderdeel p{
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+}
+
+.ondereel h2{
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.model-btns{
+    width: 100%;
+    text-align: center;
+    
+}
+
+button{
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    background-color: grey;
+    outline: none;
+}
+
+.btn{
+    display: flex;
+    padding: 2rem;
+    color: #f7f7f6;
+    font-size: 1.5rem;
+    font-weight: 900;
+    transition: all .5s;
+}
+
+.info-btns{
+    display: flex;
+    padding-top: 5%;
+}
+
+.materialisation-btn{
+    background-color: #a4a4a4;
+    border-radius: 5px;
+}
+
+.materialisation-btn:hover{
+    box-shadow: 3px 1rem 2rem rgba(0,0,0,.3);
+    transform: translateY(-1rem);
+}
+
+/* 
+********************* */
+
+.build{
+    height:80px;
+    width: 80px;
+    margin-left: 2em;
+    border-radius: 40px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    margin-bottom: 10%;
+    /* border: 2px solid #aaa; */
+    cursor: pointer;
+    display: inline-block;
+    background-color: white;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+
+
+.background1{
+    background-image: url(btn-front-low-100.jpg);
+}
+
+.background2{
+    background-image: url(btn-front-high-100.jpg);
+}
+
+.background3{
+    background-image: url(btn-back-low-100.jpg);
+}
+
+.background4{
+    background-image: url(btn-back-high-100.jpg);
+}
+
+.background5{
+    background-image: url(btn-back-open-100.jpg);
+}
+
+.background6{
+    background-image: url(btn-buckle-100.jpg);
+}
+
+.background7{
+    background-image: url(btn-strap-100.jpg);
+}
+
+.background8{
+    background-image: url(btn-front-open-100.jpg);
+}
+
+.background9{
+    background-image: url(btn-twostraps-100.jpg);
+}
+
+
+
+
+  /* .color {
+    height: 36px;
+    width: 36px;
+    margin-left: 0.5em;
+    border-radius: 18px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    border: 2px solid #aaa;
+    cursor: pointer;
+    display: inline-block;
+  } */
+
+  .materialtext{
+      width: 0px;
+      height: 0px;
+  }
+
+   .materialtext span{
+    font-size: 2.0rem;
+    text-align: center;
+    display: block;
+    line-height: 75px;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+
+  .materialtext:hover span{
+    visibility: visible;
+    color: rgb(0, 0, 0);
+  } 
+
+  
+  /* .build:hover{
+    opacity: 30%;
+  } */
+
+  .build:active{
+    border: 2px solid #aaa; 
+  }
+
+  .pressed{
+    border: 2px solid #aaa; 
+  }
+
+  .buttons-title{
+    display: inline-block;
+    margin-right: 6rem;
+    font-size: 2rem;
+    color: grey;
+  }
+
+  .step{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+    /* border: solid; */
+  background-color: lightgrey;
+    padding: 3%;
+    border-radius: 40px;
+    color:white;
+    text-align: center;
+}
+
+/* @media screen and (max-width: 1200px){
+.build{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.buttons-title{
+    display: inline-block;
+    margin-right: 6rem;
+    font-size: 1.5rem;
+    color: grey;
+  }
+
+.step{
+    font-size: 1rem;
+}
+
+.materialisation-btn{
+ font-size: 1rem;
+}
+
+} */
+
+@media screen and (max-width: 900px){
+    .build{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: block;
+        position: relative;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        top: 80%;
+    }
+
+
+  .buttons-title{
+    display: inline-block;
+    margin-right: 6rem;
+    font-size: 1.0rem;
+    color: grey;
+    visibility: hidden;
+  }
+
+  .step{
+      font-size: 1.5rem;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      position: relative;
+      top: 35%;
+      visibility: hidden;
+  }
+
+  .materialisation-btn{
+    font-size: 1.0rem;
+    border-radius: 2.0px;
+    margin-bottom: 30%;
+    position: relative;
+    top:180%;
+
+}
+
+.onderdeel{
+    overflow: auto;
+}
+
+.materialtext span{
+   font-size: 1.5rem;
+    line-height: 60px;
+    
+  }
+
+    }
+
+@media screen and (max-width: 600px){
+    .build{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+
+  .buttons-title{
+    display: inline-block;
+    margin-right: 6rem;
+    font-size: 0.8rem;
+    color: grey;
+  }
+
+  .materialisation-btn{
+    font-size: 1.0rem;
+    border-radius: 2px;
+  
+}
+    }
+
